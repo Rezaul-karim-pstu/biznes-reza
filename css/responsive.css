@@ -1,0 +1,491 @@
+/* Extra small device (part-1) */
+@media (min-width: 320px) {
+    .navbar {
+        padding: 20px;
+    }
+    .navbar-nav .nav-item .nav-link {
+        padding: 10px;
+    }
+    .search-icon {
+        padding-left: 10px;
+    }
+    .our-fixed-menu-top .header-menu{
+        position: static;
+    }
+    .our-fixed-menu-top .slide{
+        padding-top: 0;
+    }
+    .btn-ghost {
+        padding: 7px 21px;
+    }
+    .carousel-indicators li {
+        width: 5px;
+        height: 5px;
+    }
+    #about-area {
+        margin-top: 15px;
+    }
+    .about-img-bg {
+        width: 85%;
+    }
+    .about-text {
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    #design-area {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .single-design {
+        padding: 10px 15px;
+    }
+    .single-design .design-border {
+        display: none;
+    }
+    .design-right .img-1 {
+        width: 250px;
+    }
+    .design-right .img-2 {
+        display: none;
+    }
+    .design-right {
+        padding: 10px 30px;
+    }
+    #work-area .section-title {
+        margin-top: 136px;
+    }
+    .gallery-title ul li {
+        padding: 0 2px;
+    }
+    .gallery-title {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .gallery-title ul li::after {
+        height: 35px;
+    }
+    #work-area {
+        margin-bottom: 20px;
+    }
+    #work-area .section-title {
+        margin-top: 35px;
+    }
+    .tab-area .tab-list ul li a {
+        font-size: 14px;
+        padding: 15px 9px;
+    }
+    .single-tab {
+        padding: 20px 0;
+    }
+    .single-tab h4 {
+        font-size: 20px;
+    }
+    .single-tab p {
+        display: none;
+    }
+    .video-area {
+        padding: 20px 0;
+    }
+    .video-area .section-title {
+        padding-bottom: 30px;
+    }
+    .video-text h4 {
+        text-align: center;
+    }
+    .video-text p {
+        display: none;
+    }
+    .banner-area h3 {
+        font-size: 22px;
+    }
+    .banner-area .banner-overlay {
+        padding: 70px 0;
+    }
+    .banner-btn .big-btn {
+        padding: 10px 20px;
+    }
+    .team-area .section-title {
+        margin-bottom: 30px;
+    }
+    .team-area {
+        margin-bottom: 10px;
+    }
+    #blog-area .section-title {
+        margin-bottom: 30px;
+    }
+    #blog-area {
+        padding-top: 30px;
+        padding-bottom: 10px;
+    }
+    #contact-map {
+        margin-top: 20px;
+        min-height: 250px;
+    }
+
+    /* owl-carosel */
+    .single-team-member .team-info {
+        padding: 55px 0 0;
+    }
+    .team-social-link {
+        background: #8bc34a;
+        padding: 40px;
+        margin: 0;
+    }
+}
+
+/* Extra small-medium device header*/
+@media (min-width: 320px) and (max-width: 767px){
+    .header-top{
+        display: block;
+    }
+    .header-top .header-top-left ul{
+        display: block;
+        text-align: center;
+    }
+    .header-top .header-top-left ul li{
+        padding: 5px;
+    }
+    .header-top .header-top-left ul li:first-child{
+        padding-top: 10px;
+    }
+    .header-top-right{
+        display: inline-block;
+        margin-left: 50%;
+        transform: translateX(-60%);
+    }
+    .header-top .header-top-right ul li{
+        padding: 5px 0;
+        margin-left: 7px;
+    }
+
+}
+/* Extra small-medium device footer*/
+@media (min-width: 320px) and (max-width: 991px){
+    .footer-part-1 {
+        padding: 50px 60px 50px 30px;
+        margin-top: 15px;
+    }
+    .footer-part-1::before {
+        display: none;
+    }
+    .footer-title {
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+    .footer-part-3 p {
+        margin-bottom: 10px;
+    }
+    .footer-main{
+        text-align: center;
+    }
+    .footer-part-3 {
+        padding: 0 121px;
+    }
+    .footer-bg{
+        background: #303030;
+        margin: 15px;
+        padding-bottom: 10px;
+        border-radius: 5px;
+    }
+    .footer-copyright {
+        padding: 15px 0;
+    }
+}
+/* Extra small device (part-2) */
+@media (min-width: 480px) and (max-width: 575px){
+    .design-right .img-1 {
+        width: 300px;
+    }
+    .design-right .img-2 {
+        top: 186px;
+        left: 280px;
+        width: 275px;
+    }
+    .tab-area .tab-list ul li a {
+        font-size: 16px;
+        padding: 20px 4px;
+    }
+    .gallery-title ul li {
+        padding: 0 7px;
+    }
+    #contact-map {
+        min-height: 300px;
+    }
+    /* owl-carosel */
+    .team-info p {
+        padding-bottom: 84px;
+    }
+    .team-info h6 {
+        padding-bottom: 10px;
+    }
+    .single-team-member .team-info {
+        padding: 70px 0 0;
+    }
+    .team-social-link {
+        padding: 20px;
+    }
+    .video-text h4 {
+        font-size: 22px;
+    }
+    .team-info p {
+        padding-bottom: 50px;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .our-fixed-menu-top .header-menu{
+        position: fixed;
+    }
+    .our-fixed-menu-top .slide{
+        padding-top: 30px;
+    }
+    .design-right .img-1 {
+        width: 300px;
+    }
+    
+    .design-right .img-2 {
+        display: block;
+        top: 155px;
+        left: 270px;
+        width: 260px;
+    }
+    #work-area .section-title {
+        margin-top: 95px;
+    }
+    .gallery-title ul li {
+        padding: 0 7px;
+    }
+    .gallery-title ul li::after {
+        height: 15px;
+    }
+    .tab-area .tab-list ul li a {
+        font-size: 18px;
+        padding: 20px 9px;
+    }
+    .tab-area .tab-list ul li a {
+        font-size: 16px;
+        padding: 20px 15px;
+    }
+    .team-info p {
+        padding-bottom: 30px;
+    }
+    .team-social-link {
+        padding: 20px;
+    }
+    .gallery-title ul li {
+        font-size: 11px;
+    }
+    .video-text h4 {
+        font-size: 28px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .carousel-caption h2 {
+        font-size: 55px;
+    }
+    .carousel-caption h6 {
+        font-size: 18px;
+    }
+    .carousel-caption p {
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+    .btn-cta {
+        padding: 8px 20px;
+    }
+    .btn-ghost {
+        padding: 8px 29px;
+    }
+    .about-img-bg{
+        width: 100%;
+    }
+    #about-area {
+        margin-top: -40px;
+    }
+    .design-right .img-2 {
+        left: 366px;
+        width: 275px;
+    }
+    #work-area .section-title {
+        margin-top: 115px;
+    }
+    .gallery-title ul li {
+        padding: 5px 20px;
+    }
+    .single-tab p {
+        display: block;
+    }
+    .tab-area .tab-list ul li a {
+        font-size: 18px;
+        padding: 20px 40px;
+    }
+    .video-text h4 {
+        font-size: 22px;
+        padding: 5px 0;
+    }
+    .footer-bg {
+        margin: 15px 0;
+        padding-bottom: 59px;
+    }
+    .header-top .header-top-left ul li {
+        padding: 15px 0;
+        font-size: 12px;
+        color: #6b6b6b;
+        margin-right: 20px;
+    }
+    .gallery-title ul li {
+        font-size: 12px;
+    }
+    /* owl-carosel */
+    .team-info p {
+        padding-bottom: 20px;
+    }
+    .team-info h6 {
+        padding-bottom: 10px;
+    }
+    .single-team-member .team-info {
+        padding: 24px 0 0;
+    }
+    .team-social-link {
+        padding: 20px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .our-fixed-menu-top .header-menu{
+        position: fixed;
+    }
+    .our-fixed-menu-top .slide{
+        padding-top: 100px;
+    }
+    .carousel-indicators li {
+        width: 8px;
+        height: 8px;
+    }
+    .about-text {
+        margin-top: 90px;
+    }
+    .btn-cta {
+        padding: 15px 45px;
+    }
+    .btn-ghost {
+        padding: 15px 45px;
+    }
+    .single-design .design-border {
+        display: block;
+    }
+    #design-area {
+        text-align: left;
+    }
+    .design-right .img-1 {
+        width: 300px;
+    }
+    .design-right .img-2 {
+        left: 190px;
+        width: 210px;
+    }
+    .tab-area .tab-list ul li a {
+        font-size: 18px;
+        padding: 20px 80px;
+    }
+    .footer-bg{
+        margin: 0;
+        padding-bottom: 0;
+    }
+    /* owl-carosel */
+    .team-info p {
+        padding-bottom: 20px;
+    }
+    .team-info h6 {
+        padding-bottom: 10px;
+    }
+    .single-team-member .team-info {
+        padding: 24px 0 0;
+    }
+    .team-social-link {
+        padding: 15px;
+    }
+    .single-team-member .team-info {
+        padding: 40px 0 0;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .design-right {
+        padding: 10px 0;
+    }
+    .design-right .img-2 {
+        top: 200px;
+        left: 180px;
+        width: 280px;
+    }
+    .carousel-caption h6{
+        font-size: 20px;
+        font-weight: 300;
+        color: #fff;
+    }
+    .carousel-caption h2{
+        font-size: 60px;
+        font-weight: 600;
+        color: #fff;
+    }
+    .carousel-caption p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #fff;
+        margin-top: 15px;
+        margin-bottom: 30px;
+    }
+    #about-area {
+        margin-top: -80px;
+    }
+    .about-text {
+        margin-top: 140px;
+    }
+    .tab-area .tab-list ul li a {
+        padding: 20px 110px;
+    }
+    .team-info h4{
+        font-size: 21px;
+    }
+    .team-info h6{
+        padding-bottom: 25px;
+        font-size: 13px;
+    }
+    .team-info p{
+        padding-bottom: 62px;
+        font-size: 14px;
+        line-height: 23px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .team-social-link{
+        background: #8bc34a;
+        padding:23px;
+        margin: 0;
+    }
+    .team-social-link ul li a{
+        color: #fff;
+        margin: 10px;
+    }
+    .gallery-title ul li {
+        font-size: 16px;
+    }
+    .gallery-title ul li::after {
+        top: 10px;
+    }
+    .video-text p {
+        display: block;
+    }
+    .banner-area .banner-overlay {
+        padding: 110px 0;
+    }
+
+}
